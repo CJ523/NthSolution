@@ -14,18 +14,18 @@ public class Members {
 	private Integer age;
 	private Integer mobilenum;
 	private String gender;
-	private String marital_status;
+	private String maritalstatus;
 	private String address;
 	private String email;
 	private String password;
 
 	public Members() {
-		super();
+		//super();
 		// TODO Auto-generated constructor stub
 	}
 
 	public Members(Integer id, String firstname, String middlename, String lastname, Integer age, Integer mobilenum,
-			String gender, String marital_status, String address, String email, String password) {
+			String gender, String maritalstatus, String address, String email, String password) {
 		super();
 		this.id = id;
 		this.firstname = firstname;
@@ -34,7 +34,7 @@ public class Members {
 		this.age = age;
 		this.mobilenum = mobilenum;
 		this.gender = gender;
-		this.marital_status = marital_status;
+		this.maritalstatus = maritalstatus;
 		this.address = address;
 		this.email = email;
 		this.password = password;
@@ -98,12 +98,12 @@ public class Members {
 		this.gender = gender;
 	}
 
-	public String getMarital_status() {
-		return marital_status;
+	public String getMaritalstatus() {
+		return maritalstatus;
 	}
 
-	public void setMarital_status(String marital_status) {
-		this.marital_status = marital_status;
+	public void setMaritalstatus(String maritalstatus) {
+		this.maritalstatus = maritalstatus;
 	}
 
 	public String getAddress() {
